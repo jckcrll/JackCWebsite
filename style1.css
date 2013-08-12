@@ -1,0 +1,17 @@
+body {background-color:white;
+background-image:url('film.jpg');
+background-repeat:repeat-y;
+background-position:left top;
+} 
+
+h1 {color:black;font-size:20pt;font-family:Sans-serif;margin-left:60px;}
+hr {color:gray;}
+p {font-family:Sans-serif;color:black;font-size:11pt;margin-left:70px;}
+p.attn {font-family:Sans-serif;color:red;font-size:12pt;text-align:center;text-decoration:blink;}
+p.small {font-family:Sans-serif;color:black;font-size:8pt;margin-left:70px;}
+
+a {text-decoration:none}
+a:link {color:blue}
+a:visited {color:DimGray;}
+a:hover {color:LightGray;text-decoration:underline;}
+a:active {color:black;text-decoration:underline;}
