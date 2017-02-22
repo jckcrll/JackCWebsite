@@ -11,5 +11,5 @@ a:hover {color:LightGray;}
 a:active {color:black;}
 
 .container {
-   padding: 15px;
+   max-width: 800px;
 }
