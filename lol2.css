@@ -9,3 +9,7 @@ a:link {color:grey}
 a:visited {color:DimGray;}
 a:hover {color:LightGray;}
 a:active {color:black;}
+
+.container {
+   padding: 15px;
+}
