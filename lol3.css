@@ -1,11 +1,26 @@
-body {background-color:beige;}
-h1 {color:black;font-size:20pt;font-family:monospace;}
-hr {color:black;}
-p {font-family:monospace;color:black;font-size:11pt;margin-left:20px;}
-p.end {font-family:monospace;color:black;font-size:8pt;text-align:right;}
+body {background-color:black;}
+h1 {color:white;font-size:20pt;font-family:monospace;text-align:center;}
+hr {color:white;}
+p {font-family:monospace;color:white;font-size:11pt;text-align:center;}
+p.list {font-family:monospace;color:white;font-size:11pt;text-align:left;margin-left:100px;margin-right:100px;}
+p.end {font-family:monospace;color:white;font-size:8pt;text-align:center;}
 
 a {text-decoration:none}
-a:link {color:grey}
-a:visited {color:DimGray;}
-a:hover {color:LightGray;}
-a:active {color:black;}
+a:link {color:darkgray}
+a:visited {color:Gray;}
+a:hover {color:white;}
+a:active {color:dimgray;}
+
+.container {
+   max-width: 800px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: inset;
+    border-width: 1px;
+}
