@@ -1,0 +1,57 @@
+body {background-color:black;}
+h1 {color:white;font-size:20pt;font-family:monospace;text-align:center;}
+hr {color:white;}
+p {font-family:monospace;color:white;font-size:11pt;text-align:center;}
+p.list {font-family:monospace;color:white;font-size:11pt;text-align:left;margin-left:100px;margin-right:100px;}
+p.end {font-family:monospace;color:white;font-size:8pt;text-align:center;}
+
+a {text-decoration:none}
+a:link {color:darkgray}
+a:visited {color:Gray;}
+a:hover {color:white;}
+a:active {color:dimgray;}
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:monospace;
+    font-size:11pt;
+}
+.navbar li a:hover:not(.active) {
+	color:dimgray;
+}
+.navbar li a.visited {color:Gray;}
+.navbar li {float: left;}
+.navbar li.right {float: right;}
+
+/* Main content */
+.main {
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+    margin-left:100px;
+    margin-right:100px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: inset;
+    border-width: 1px;
+}
