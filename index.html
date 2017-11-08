@@ -9,6 +9,8 @@
 
 <body> 
 
+
+<div class="navbar">
 $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
     if( target.length ) {
@@ -18,8 +20,6 @@ $('a[href^="#"]').on('click', function(event) {
         }, 1000);
     }
 });
-
-<div class="navbar">
 <p>
 <li><a href="#music">music</a></li>
 <li><a href="#games">games</a></li>
