@@ -1,8 +1,6 @@
 <html> 
 <head> 
 <link rel="stylesheet" type="text/css" href="lol.css" /> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-</script>
 </head> 
 
 
@@ -11,15 +9,6 @@
 
 
 <div class="navbar">
-$('a[href^="#"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-});
 <p>
 <li><a href="#music">music</a></li>
 <li><a href="#games">games</a></li>
