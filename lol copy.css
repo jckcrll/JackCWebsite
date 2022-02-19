@@ -1,22 +1,21 @@
-body {background-color:white;}
-h1 {color:black;font-size:40pt;font-family:Verdana;text-align:left;font-weight: normal;}
-h2 {color:black;font-size:20pt;font-family:Verdana;text-align:left;font-weight: normal;}
-hr {color:black;}
-p {font-family:Verdana;color:black;font-size:11pt;text-align:left;}
-p.list {font-family:Verdana;color:black;font-size:11pt;text-align:left;margin-left:100px;margin-right:100px;}
-p.end {font-family:Verdana;color:black;font-size:8pt;text-align:center;}
+body {background-color:black;}
+h1 {color:white;font-size:20pt;font-family:monospace;text-align:center;}
+hr {color:white;}
+p {font-family:monospace;color:white;font-size:11pt;text-align:center;}
+p.list {font-family:monospace;color:white;font-size:11pt;text-align:left;margin-left:100px;margin-right:100px;}
+p.end {font-family:monospace;color:white;font-size:8pt;text-align:center;}
 
 a {text-decoration:none}
 a:link {color:darkgray}
 a:visited {color:Gray;}
-a:hover {color:black;}
+a:hover {color:white;}
 a:active {color:dimgray;}
 
 
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: white;
+    background-color: black;
     position: fixed; /* Set the navbar to fixed position */
     bottom: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -26,11 +25,11 @@ a:active {color:dimgray;}
 .navbar li a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family:Verdana;
+    font-family:monospace;
     font-size:11pt;
 }
 .navbar li a:hover:not(.active) {
