@@ -1,8 +1,8 @@
 body {background-color:white;}
-h1 {color:black;font-size:40pt;font-family:Verdana;text-align:left;font-weight: normal;}
-h2 {color:black;font-size:20pt;font-family:Verdana;text-align:left;font-weight: normal;}
+h1 {color:black;font-size:50pt;font-family:Verdana;text-align:left;font-weight: normal;}
+h2 {color:black;font-size:25pt;font-family:Verdana;text-align:left;font-weight: normal;}
 hr {color:black;}
-p {font-family:Verdana;color:black;font-size:11pt;text-align:left;}
+p {font-family:Verdana;color:black;font-size:13pt;text-align:left;}
 p.list {font-family:Verdana;color:black;font-size:11pt;text-align:left;margin-left:100px;margin-right:100px;}
 p.end {font-family:Verdana;color:black;font-size:8pt;text-align:center;}
 
@@ -31,7 +31,7 @@ a:active {color:dimgray;}
     padding: 14px 16px;
     text-decoration: none;
     font-family:Verdana;
-    font-size:11pt;
+    font-size:13pt;
 }
 .navbar li a:hover:not(.active) {
 	color:dimgray;
